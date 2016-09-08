@@ -1,54 +1,54 @@
 # Titles
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
+Comme nous commençons à écrire un document markdown, nous avons besoin d'ajouter un titre et quelques sous-titres.
 
-Markdown supports two styles of headers, Setext and atx.
+Le Markdown supporte deux styles d'entêtes, les Setext et les atx.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
-
-```
-This is an H1
-=============
-
-This is an H2
--------------
-```
-
-Any number of underlining =’s or -’s will work.
-
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Les entêtes Setext sont “soulignées” en utilisant le signe égal (pour une entête de premier niveau) et des tirets (pour les entêtes de second niveau). Par exemple:
 
 ```
-# This is an H1
+Ceci est un H1
+==============
 
-## This is an H2
+Ceci est un H2
+--------------
+```
 
-###### This is an H6
+N'importe quel nombre de signes "=" ou "-" pour souligner fonctionnera.
+
+Les entêtes atx utilisent de 1 à 6 mots-dièse en début de ligne, correspondant aux entêtes de niveau 1 à 6. Par exemple:
+
+```
+# Ceci est un H1
+
+## Ceci est un H2
+
+###### Ceci est un H6
 ```
 
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+Facultativement, vous pouvez "fermer" les entêtes atx. Ceci est purement esthétique — vous pouvez l'utilisez si vous trouvez cela plus joli. Les mots-diéses fermant n'ont pas besoin de correspondre au nombre de mots-diése ouvrant, utilisés pour commencer l'entête. (Le nombre de mot-diése ouvrant détermine le niveau de l'entête.) :
 
 ```
-# This is an H1 #
+# Ceci est un H1 #
 
-## This is an H2 ##
+## Ceci est un H2 ##
 
-### This is an H3 ######
+### Ceci est un H3 ######
 ```
 
 
 ---
 
-Here's a quiz about markdown titles.
+Voici un quiz a propos des titres markdown.
 
-Select the valid headers:
+Selectionnez l'entête valide:
 - [x] `# hello`
 - [ ] `#hello`
 
-> Headers need space between the hash characters and the text.
+> L'entête a besoin d'espace entre le mots-diése et le texte.
 
-Select the valid headers:
+Selectionnez l'entête valide:
 - [ ]  
 ```
 test
@@ -60,7 +60,7 @@ test
 =======
 ```
 
-> Only '=' and '-' are accepted for underlining an header.
+> Seulement '=' et '-' sont acceptés pour souligner une entête.
 
 ---
 
